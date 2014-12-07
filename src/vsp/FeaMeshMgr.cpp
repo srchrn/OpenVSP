@@ -377,7 +377,7 @@ FeaMeshMgr::FeaMeshMgr()
 	m_CurrRibID = 0;
 	m_CurrSparID = 0;
 	m_CurrPointMassID = 0;
-	m_DefElemSize = 0.5;
+	m_DefElemSize = 2.0;		// default = 0.5
 	m_ThickScale = 1.0;
 	m_TotalMass = 0.0;
 	m_CurrEditType = UP_SKIN_EDIT;
